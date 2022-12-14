@@ -1,11 +1,11 @@
 /*defaults*/
 * {
-    margin: 0;
+    margin: 0; /* Used for margins to be as close as possible*/
     padding: 0;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; /*Changes font to open sans for all of the body tag*/
     margin: auto;
     position: absolute;
     
@@ -19,22 +19,22 @@ body {
         text-align: center;
     }
 
-    li a {
-        text-decoration: none;
+    li a {                                   /* Used for specfically targeting text in the nav list */
+        text-decoration: none;        
         color: #c78c06;
         position: relative;
-
+        font-family: 'Open Sans', sans-serif;
 
     }
 
     li {
 
-        padding: 10px;
+        padding: 10px;       /* distance between nav links */
         font-size: 20px;
     }
 
-    a:hover {
-        background-color: #c78c06;
+    a:hover {                         /*Used for when hovering over a link */
+        background-color: #c78c06;  /* change hover color */
         color: black;
         padding-left: 320px;
         padding-right: 320px;
@@ -44,16 +44,16 @@ body {
 
     .nav-img {
         position: absolute;
-        top: 20px;
+        top: 20px;          /*used to change the position of the nave img*/ 
         left: 20px;
     }
 
-    .search {
+    .search {          /*class made to edit task bar size and location */
         position: absolute;
         top: 320px;
         left: 30px;
         font-size: 17px;
-        text-decoration: none;
+        text-decoration: none;  /*removes any special effects on search bar */
         width: 500px;
     }
 
@@ -63,23 +63,23 @@ body {
         border: solid black 2px;
     }
 
-    .Sicon {
-        background-color: #c78c06;
+    .Sicon {                                        /*class used for search button */
+        background-color: #c78c06;   
         position: relative;
     }
 
     .Main-Banner {
-        background-image: url(Images/main-banner.jpg);
+        background-image: url(Images/main-banner.jpg);     /*background img for the main banner */
         position: relative;
         height: 800px;
         width: 760px;
-        background-position: center;
+        background-position: center;                    /*centers img */
     }
 
-    .Main-Banner-Text {
+    .Main-Banner-Text {                      /*class for text overlaping over the main banner img */
         background-color: #222;
         opacity: 80%;
-        color: white;
+        color: white;                   /*changes color for text*/
         height: 500px;
         width: 100%;
         position: relative;
@@ -89,16 +89,16 @@ body {
     }
 
     h1 {
-        font-size: 70px;
+        font-size: 70px;            /*Changes size of font of the h1 */
         padding: 30px;
     }
 
     p {
-        font-size: large;
+        font-size: large;               /*Changes size of font of the p */
         padding: 30px;
     }
 
-    .Connect-Button {
+    .Connect-Button {                   /*class for selecting a button and its properties */
         margin-left: 30px;
         position: relative;
         background-color: #c78c06;
@@ -107,7 +107,7 @@ body {
         top: 20px;
     }
 
-    .Connect-Button a {
+    .Connect-Button a {                        /* used for getting in deeper to the buttons properties ex. chnaging text features */
         text-decoration: none;
         color: #222;
         background-color: #c78c06;
@@ -115,16 +115,16 @@ body {
         width: 10px;
     }
 
-    .Container-1 {
+    .Container-1 {                                                 /*class for about us img and its properties */
         background-image: url(Images/about-us.jpg);
         width: 740px;
         height: 400px;
-        border: solid #ffe6ac 10px;
+        border: solid #ffe6ac 10px;                /*adds solid border around img with color selected  */
     }
 
-    .text {
+    .text {                                                     
         background-color: #ffe6ac;
-        position: relative;
+        position: relative;                     
         top: 400px;
         width: 760px;
         left: -10px;
@@ -136,10 +136,10 @@ body {
         padding: 20px;
     }
 
-    .Services {
+    .Services {                                    /*class used for identify the items inside of grid */
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-areas:
+        grid-template-columns: repeat(6, 1fr);            /*Creates 6 columns all at the same size */
+        grid-template-areas:                           /*Used for identify the size as well as the order of the grid items*/
             "Heading"
             "Digital"
             "Marketing"
@@ -147,18 +147,19 @@ body {
             "Web"
             "Print"
         ;
-        column-gap: 10px;
+        column-gap: 10px;               /*both are used to add space between columns and rows */
         row-gap: 10px;
 
 
     }
 
-    .Services h1 {
-        grid-area: Heading;
-        font-weight: 900;
+    .Services h1 {                         
+        grid-area: Heading;                /*used to identify the class and what order it belongs in*/
+        font-weight: 900;                        /*used for the boldness of text */
         position: relative;
         width: 760px;
         top: 330px;
+        font-family: 'Open Sans', sans-serif;
     }
 
     .Services p {
@@ -169,7 +170,7 @@ body {
     .Digital-Transformation {
         grid-area: Digital;
         background-color: #ffe6ac;
-        justify-items: center;
+        justify-items: center;                 /*centers items in the center of the grid box */
         position: relative;
         top: 300px;
         width: 760px;
@@ -197,7 +198,7 @@ body {
         padding: 20px;
     }
 
-    .Marketing {
+    .Marketing {                        
         grid-area: Marketing;
         background-color: #ffe6ac;
         position: relative;
@@ -293,7 +294,7 @@ body {
     .Print {
         grid-area: Print;
         background-color: #ffe6ac;
-        position: relative;
+        position: relative;            /*used for being able to adjust the item with left, top, bottem. right */
         top: 300px;
         width: 760px;
     }
@@ -413,7 +414,7 @@ body {
         left: 35px;
     }
 
-    .contact-us h1 {
+    .contact-us h1 {               /*Heading for contact us  */
         position: relative;
         font-weight: 900;
         margin-left: 20px;
@@ -428,7 +429,7 @@ body {
 
     }
 
-    input[type=text],
+    input[type=text],      /*used to adjust the properties of a text box areas */
     select {
         width: 700px;
         padding: 12px;
@@ -442,18 +443,18 @@ body {
         position: relative;
     }
 
-    form {
+    form {                 /*the parent tag for the contact sheet */
         padding: 70px;
         position: relative;
         top: 70px;
     }
 
-    label {
+    label {                            /*message at the top of the text box displaying what supposed to be inputed */
         top: -70px;
         position: relative;
     }
 
-    .Submit input {
+    .Submit input {                        /*used for text area */
         background-color: #222;
         color: #c78c06;
         padding-left: 5px;
@@ -473,7 +474,7 @@ body {
         top: -100px;
     }
 
-    .textA textarea {
+    .textA textarea {                 /*larger text area mostly used for email style  */
         width: 700px;
         height: 100px;
         padding: 10px;
@@ -486,7 +487,7 @@ body {
         position: relative;
     }
 
-    .Hours-Of-Operation h2 {
+    .Hours-Of-Operation h2 {               /*title of the table for hours of operation */
         position: relative;
         top: -530px;
         left: 100px;
@@ -496,7 +497,7 @@ body {
 
     table,
     tr,
-    td {
+    td {                               /*used for selecting all properties of a table */
         border: 1px solid;
         text-align: left;
         position: relative;
@@ -518,7 +519,7 @@ body {
     }
 
     .days {
-        background-color: #ffe6ac;
+        background-color: #ffe6ac;                 /*changes the background color of the specfic table box */
         text-align: center;
     }
 
@@ -527,21 +528,21 @@ body {
         text-align: center;
     }
 
-    .Location {
+    .Location {                                                /*class tag for adjusting size of the google map implemented */
         position: relative;
         width: 760px;
         left: 110px;
         top: 300px;
     }
 
-    .Location h2 {
+    .Location h2 {                             /*header above the location */
         font-size: 30px;
         top: -20px;
         font-weight: 900;
         position: relative;
     }
 
-    footer {
+    footer {                                       /*used to adjust features inside footer(copyright info)*/
         background-color: #222;
         color: #c78c06;
         width: 100%;
@@ -568,14 +569,14 @@ body {
 /* ********* WEB ********/
 
 
-@media screen and (min-width:760px) {
+@media screen and (min-width:760px) {      /*used for breaking into web breakpoint */
     .Main-Banner {
         background-image: url(Images/main-banner.jpg);
         position: relative;
         height: 800px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-position: center;        /*centers background */
+        background-repeat: no-repeat;              /* background doesnt repeat itself when size increases*/
+        background-size: cover;                    /*backgorund stretchs to fit the area  */
         top: -60px;
         width: 100%;
        
@@ -683,8 +684,8 @@ body {
     }
 
     .Container-1 {
-        display: flex;
-        flex-direction: row-reverse;
+        display: flex;                         /* Used for identifiy the class as flex/flexbox*/
+        flex-direction: row-reverse;               /*changes direction of objects order */
         position: relative;
         top: -70px;
         width: 100%;
@@ -699,8 +700,8 @@ body {
     .text {
         background-color: #ffe6ac;
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        flex-direction: column;                        /*makes items go vertical rather then horizantal */
+        flex-wrap: wrap;                           /*wraps items if they cant fit the chosen area */
         position: relative;
         padding: 15px;
     }
@@ -724,7 +725,7 @@ body {
     .Services {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);                /*used for selecting the amount of rows you want in grid (3 rows even) */
         grid-template-areas:
             "Heading Heading Heading Heading Heading Heading"
             "Digital Digital Digital Marketing Marketing Marketing"
