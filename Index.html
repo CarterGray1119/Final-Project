@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="CSS/Main.css">
@@ -19,29 +23,40 @@
             <div class="Nav-Div">
                 <nav>
                     <ul>
-                        <li><a href="Home">Home</a></li>
+                        <li><a href="Home">Home</a></li> 
                         <li><a href="#Container1">About Us</a></li>
                         <li><a href="#Our-Services">Services</a></li>
                         <li><a href="#our-team">Team</a></li>
                         <li><a href="#contact-us">Contact</a></li>
                     </ul>
-                    <input type="text" placeholder="Search..">
+                    <div class="search">
+                        <input type="text" placeholder="Search..">
+                    </div>
+                    <div class="nav-img">
                         <img src="/CSS/Images/logo.png" alt="Logo img">
+                    </div>
+                    <div class="Sicon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
                 </nav>
             </div>
 
 
             <div class="Main-Banner">
-                <!--- <img src="/CSS/Images/main-banner.jpg" alt="Background img"> -->
+                <!---  <img src="/CSS/Images/main-banner.jpg" alt="Background img">  -->
 
                 <div class="Main-Banner-Text">
                     <h1>Welcome To Three Star Media</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint quas magni consectetur distinctio
                         placeat perferendis quos laborum accusamus veniam cum! Excepturi neque, illo sequi dolores at
                         molestiae nobis eaque tempora.</p>
-                    <button class="Connect-Button">
-                        Connect With Us <i class="fa-solid fa-play"></i>
-                    </button>
+                </div>
+                <div class="Connect-Button">  
+                    <a href="#contact-us">Connect With Us</a>
+                   
+                <button class="Connect-Button1">
+                     <i class="fa-solid fa-play"></i>
+                </button>
                 </div>
             </div>
         </header>
@@ -50,28 +65,33 @@
     <main>
         <!--About us-->
         <section id="Container1">
-            <div class="text">
-                <h3>About Us</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium ab quos veritatis excepturi
-                    voluptate nostrum in sed vel quibusdam possimus pariatur repudiandae quia, beatae doloremque harum
-                    voluptates animi amet fuga.</p>
+            <div class="Container-1">
+                <div class="text">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium ab quos veritatis excepturi
+                        voluptate nostrum in sed vel quibusdam possimus pariatur repudiandae quia, beatae doloremque
+                        harum
+                        voluptates animi amet fuga.</p>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum eveniet blanditiis, vel perferendis
-                    labore dolor ipsam, nam similique unde explicabo iusto impedit ipsum a cum? Aspernatur doloremque
-                    aliquid delectus reprehenderit!</p>
-            </div>
-            <div class="image">
-                <img src="/CSS/Images/about-us.jpg" alt="about us">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum eveniet blanditiis, vel
+                        perferendis
+                        labore dolor ipsam, nam similique unde explicabo iusto impedit ipsum a cum? Aspernatur
+                        doloremque
+                        aliquid delectus reprehenderit!</p>
+                </div>
+                <div class="image">
+                    <!---  <img src="/CSS/Images/about-us.jpg" alt="about us"> -->
+                </div>
             </div>
         </section>
         <!--our services-->
-
+        
         <div id="Our-Services">
-            <h1>Our Services</h1>
             <div class="Services">
+                <h1>Our Services</h1>
                 <div class="Digital-Transformation">
                     <img src="/CSS/Images/digital.jpg" alt="Digital-Transformation">
-                    <h2>DigitalTransformation</h2>
+                    <h2>Digital Transformation</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere necessitatibus quos vero cum
                         ipsum amet, quasi non magni voluptatem? Soluta nisi exercitationem fuga cumque amet praesentium
                         architecto culpa non suscipit.</p>
@@ -120,11 +140,12 @@
                     </button>
                 </div>
             </div>
+      </div>      
             <!--Our Vision-->
 
             <div class="Our-Vision-img">
                 <img src="/CSS/Images/vision.jpg" alt="Our vision image">
-                <div class="Our Vision">
+                <div class="Our-Vision">
                     <h2>Our Vision</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quod accusamus ducimus delectus
                         commodi cum vel nesciunt quos ut corporis, voluptatum voluptatem quo, corrupti at facere nobis.
@@ -138,82 +159,104 @@
             <!--Our Team-->
 
             <div id="our-team">
-                <div class="John doe">
-                    <img src="/CSS/Images/john.jpg" alt="John Doe">
+                <div class="Our-team">
+                    <h1>Our Team</h1>
                 </div>
-                <div class="John-text">
-                    <h1>John Doe</h1>
-                    <h2>Ceo and Co-founder</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas omnis ipsam sequi! Officia
-                        odio optio eius voluptas ipsam sed expedita dolores excepturi dolorem. Hic eaque ipsa sapiente
-                        quia officiis!</p>
-                </div>
-                <div class="Bob rite">
-                    <img src="/CSS/Images/bob.jpg" alt="Bob rite">
-                </div>
-                <div class="Bob-text">
-                    <h1>Bob Rite</h1>
-                    <h2>Ceo and Co-founder</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolores deleniti aliquam vero
-                        error, nam nemo, qui magnam voluptatum minima voluptate aperiam maxime fugiat ipsum libero vel
-                        ullam, eius repellat!</p>
-                </div>
-
-                <!--contact us-->
-
-                <div id="contact-us">
-                    <h2>Contact Us</h2>
-                    <div class="Message">
-                        <h2>Send Us A Message</h2>
-                        <form>
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                            <label for="Email">Email</label>
-                            <input type="text" id="Email" name="Email" placeholder="Email..">
-
-                            <label for="Message">Message</label>
-                            <input type="text" id="Message" name="Message" placeholder="Message..">
-
-                            <input type="submit" value="Submit">
-                        </form>
+                <div class="Our-Team1">
+                    <div class="John-doe">
+                        <img src="/CSS/Images/john.jpg" alt="John Doe">
                     </div>
-
-                    <div class="Location">
-                        <h2>Location</h2>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944738567603!2d-75.75712548459778!3d45.34992777909984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669231256382!5m2!1sen!2sca"
-                            width="600" height="450" style="border:0;" allowfullscreen="" 
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="John-text">
+                        <h1>John Doe</h1>
+                        <h2>Ceo and Co-founder</h2>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quas omnis ipsam sequi!
+                            Officia
+                            odio optio eius voluptas ipsam sed expedita dolores excepturi dolorem. Hic eaque ipsa
+                            sapiente
+                            quia officiis!</p>
                     </div>
-
-                    <div class="Hours Of Operation">
-                        <h2>Hours of Operation</h2>
-                        <table>
-                            <tr>
-                                <td>days</td>
-                                <td>Hours</td>
-                            </tr>
-
-                            <tr>
-                                <td>Monday to friday</td>
-                                <td>9am - 6pm</td>
-                            </tr>
-                            <tr>
-                                <td>saturady sunday</td>
-                                <td> closed</td>
-                            </tr>
-
-                        </table>
+                </div>
+                <div class="Our-Team2">
+                    <div class="Bob-rite">
+                        <img src="/CSS/Images/bob.jpg" alt="Bob rite">
+                    </div>
+                    <div class="Bob-text">
+                        <h1>Bob Rite</h1>
+                        <h2>Ceo and Co-founder</h2>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolores deleniti aliquam vero
+                            error, nam nemo, qui magnam voluptatum minima voluptate aperiam maxime fugiat ipsum libero
+                            vel
+                            ullam, eius repellat!</p>
                     </div>
                 </div>
             </div>
+            <!--contact us-->
+
+            <div id="contact-us">
+                <div class="contact-us">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="Message">
+                    <h2>Send Us A Message</h2>
+                    <form>
+                        <label for="fname">First Name</label><br>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+                        <label for="Email">Email</label><br>
+                        <input type="text" id="Email" name="Email" placeholder="Email.."><br>
+                        <div class="textA">
+                            <label for="Message">Message</label><br>
+                            <textarea id="Message" name="Message" placeholder="Message"></textarea>
+                        </div>
+                        <div class="Submit">
+                            <input type="submit" value="Submit"><br>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="Location">
+                    <h2>Location</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944738567603!2d-75.75712548459778!3d45.34992777909984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669231256382!5m2!1sen!2sca"
+                        width="600" height="450" style="border:0;" allowfullscreen=""
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="Hours-Of-Operation">
+                <h2>Hours of Operation</h2>
+                <table>
+                    
+                        <tr>
+
+                            <td class="days">Days</td>
+                            <td class="Hours">Hours</td>
+                        </tr>
+                    
+                    <tr>
+                        <td>Monday - friday</td>
+                        <td>9am - 6pm</td>
+                    </tr>
+                    <tr>
+                        <td>Saturady - Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+
+                </table>
+            </div>
         </div>
+    </div>
+</div>
     </main>
 
     <footer>
-        &copy; Copyright Three Star Media, 2020
-        all imgaes are taken from upslash
-
+        <p>
+            &copy; Copyright Three Star Media, 2020<br>
+        </p>
+        <p>
+            all imgaes are taken from upslash
+        </p>
     </footer>
 
 </body>
