@@ -63,7 +63,7 @@ body {
     }
 
     .Main-Banner {
-        background-image: url(CSS/Images/main-banner.jpg);
+        background-image: url(./CSS/Images/main-banner.jpg);
         position: relative;
         height: 800px;
         width: 760px;
@@ -109,7 +109,7 @@ body {
     }
 
     .Container-1 {
-        background-image: url(CSS/Images/about-us.jpg);
+        background-image: url(./CSS/Images/about-us.jpg);
         width: 740px;
         height: 400px;
         border: solid #ffe6ac 10px;
@@ -560,7 +560,7 @@ body {
 
 @media screen and (min-width:760px) {
     .Main-Banner {
-        background-image: url("/CSS/Images/main-banner.jpg");
+        background-image: url("./CSS/Images/main-banner.jpg");
         position: relative;
         height: 800px;
         background-position: center;
@@ -700,7 +700,7 @@ body {
 
 
     .image {
-        background-image: url(/CSS/Images/about-us.jpg);
+        background-image: url(./CSS/Images/about-us.jpg);
         background-size: cover;
         position: relative;
         display: flex;
