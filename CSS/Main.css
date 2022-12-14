@@ -63,7 +63,7 @@ body {
     }
 
     .Main-Banner {
-        background-image: url(/CSS/Images/main-banner.jpg);
+        background-image: url(CSS/Images/main-banner.jpg);
         position: relative;
         height: 800px;
         width: 760px;
